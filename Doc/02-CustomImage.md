@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 
 BTW - source files are available here:
-> https://github.com/cloudZeroToHero/DevOpsCamp-Docker/tree/main/Code/Lab02
+> https://github.com/cloudZeroToHero/DevOpsCamp-Docker/tree/main/Code/02-CustomImage
 
 ## Dockerfile
 
