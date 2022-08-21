@@ -2,7 +2,7 @@
 
 Lab is part of [Docker Essentials: A Developer Introduction](https://courses.cognitiveclass.ai/courses/course-v1:IBMDeveloperSkillsNetwork+CO0101EN+v1/course/)
 
-## Run a container
+## Before the lab
 Although originally lab starts with *docker run* command I thought it wold be nice to be able to first download image without running it. 
 Thus *docker pull* command becomes handy. To download Ubuntu 18.04 docker official image form  hub.docker.com it is enough to run
 > docker pull ubuntu:bionic
@@ -49,7 +49,7 @@ ps -ef
 ![ssh to container](./images/L01-004-ssh-to-container.jpg)
 
 
-## 2. Run multiple containers
+## Run multiple containers
 
 Next step is to run container from [official nginx](https://hub.docker.com/_/nginx) image
 
@@ -74,7 +74,7 @@ When I list containers - both of them (nginx and MongoDB) ara running
 
 ![containers running](./images/L01-009-two-containers.jpg)
 
-# 3. Remove the container
+# Remove the container
 
 Now it's time to end this lab and stop containers.
 
